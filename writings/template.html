@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../styles.css">
+        <title>Writings</title>
+    </head>
+    <body>
+        <h1>Dmytro Petryshchuk</h1>
+        <a href="../index.html">Home</a>
+        <div id="content"></div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+            const page = new URLSearchParams(location.search).get('page') || 'home';
+
+            fetch(`/writings/${page}.md`)
+                .then(res => res.ok ? res.text() : '# Not Found')
+                .then(md => document.getElementById('content').innerHTML = marked.parse(md))
+        </script>
+    </body>
+</html>
