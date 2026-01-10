@@ -20,6 +20,9 @@ I think Ima is defined by their big5 personality traits.
 - Some kind of flow for the three spaces: past, present, and future.
 - A visualization of their projects and life events on a timeline for their viewing, and to let them fill things in.
 - I need to prevent people from throwing the AI off the rails by trying to break it.
+- Kubernetes for each individual using the platform
+- Store the everMemOs data in a database. Need to understand MongoDB.
+- UI overhaul
 
 #### Current Status
 - IMA is hosted on Railway on https://ima.dmytropetryshchuk.com
