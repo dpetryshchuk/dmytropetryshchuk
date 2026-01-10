@@ -1,6 +1,6 @@
 ### IMA design
 
-Ima is an AI agent suited for Calrity Engine.
+Ima is an AI agent suited for Clarity Engine.
 
 #### Vision
 Based on my interest in helping poeple be seen and feel seen, Ima is designed to be a coach to see and understand a user in an awe-inspiring way. I want Ima to feel like a rich character in a world. 
@@ -19,3 +19,10 @@ I think Ima is defined by their big5 personality traits.
 (written so I don't get distracted)
 - Some kind of flow for the three spaces: past, present, and future.
 - A visualization of their projects and life events on a timeline for their viewing, and to let them fill things in.
+
+
+#### Current Status
+- IMA is hosted on Railway on https://ima.dmytropetryshchuk.com
+- IMA is built with FastAPI
+- IMA stores memories as JSON files in local storage
+- It uses OpenRouter with a free Llama model.
