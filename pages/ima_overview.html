@@ -38,6 +38,18 @@
                         <a href="../papers/EverMemOSv1.pdf" target="_blank" rel="noopener">Pdf of paper</a>, 
                         <a href="https://github.com/EverMind-AI/EverMemOS?tab=readme-ov-file" target="_blank" rel="noopener">Github repo</a>)
                     </li>
+                    <li>
+                        <p>For EverMemOS, they use docker to run 4 databases.</p> 
+                        <ul>
+                            <li>MongoDB to store conversation data, user profiles, and memories</li>
+                            <li>Elasticsearch for searching text rapidly</li>
+                            <li>Milvus for vectorDB</li>
+                            <li>Redis for caching</li>
+                        </ul> 
+                        <p>Realistically, we only need to have one database that stores all of that and lets us search easily</p>
+                        <p>And for Ima, since we're hosting on Railway, we can just use their Redis for caching.</p>
+                        <p>I'm looking at PostgreSql and pgvector which is a PostgreSql extension.
+                    </li>
                 </ul>
             </li>
             <li>

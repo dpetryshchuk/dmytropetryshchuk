@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\Users\\Dima\\Documents\\1. Projects\\dmytropetryshchuk.com\\ima\\static\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
